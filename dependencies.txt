@@ -1,0 +1,20 @@
+GPIO & Servo:
+1) pip install RPi.GPIO
+2) pip install gpiozero
+3) pip install pigpio
+
+Firebase:
+1) pip install requests        - required for real-time database
+2) pip install python-firebase - required for real-time database
+3) pip install firebase-admin  - required for firestore cloud database
+4) pip install google-cloud-firestore - unchecked
+
+License Plate Recognition:
+1) pip install opencv-contrib-python (Note: 1st refer steps and preriquisites (docs) before installation)
+2) pip install pytesseract
+
+Servo:
+(Note: Repeat everytime berfore using them in scripts)
+1) sudo pigpiod       - start pin factory
+2) pgrep pigpiod      - checking pin factory
+3) sudo pkill pigpiod - stop pin factory
